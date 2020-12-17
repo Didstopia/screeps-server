@@ -1,6 +1,6 @@
 FROM didstopia/base:nodejs-alpine-3.10
 
-RUN npm install -g screeps@3.4.0 --unsafe
+RUN npm install -g screeps@4.2.5 --unsafe
 WORKDIR /app
 
 VOLUME [ "/app" ]
