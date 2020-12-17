@@ -1,4 +1,4 @@
-FROM didstopia/base:nodejs-alpine-3.10
+FROM didstopia/base:nodejs-12-ubuntu-18.04
 
 RUN npm install -g screeps@4.2.5 --unsafe
 WORKDIR /app
