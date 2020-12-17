@@ -1,5 +1,9 @@
 FROM didstopia/base:nodejs-12-ubuntu-18.04
 
+RUN apt-get update && \
+    apt-get install -y \
+      net-tools
+
 RUN npm install -g screeps@4.2.5 --unsafe
 WORKDIR /app
 
